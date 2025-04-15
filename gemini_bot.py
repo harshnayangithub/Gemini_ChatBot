@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 st.title("Customer Support Chatbot")
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAmEufLCyIcI9RpE1Hg3DpzxV1O1xwXnU0"
+os.environ['GOOGLE_API_KEY'] = "AIzaSyD04zgLCyBSlOTdl1ZGFyLuRhXa8fQcOVs"
 genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
 
 # Select the model
